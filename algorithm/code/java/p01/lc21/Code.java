@@ -1,4 +1,4 @@
-package algorithm.code.java.lc21;
+package algorithm.code.java.p01.lc21;
 
 public class Code {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

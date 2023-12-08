@@ -1,4 +1,4 @@
-package algorithm.code.java.lc150;
+package algorithm.code.java.p01.lc150;
 
 public class Test {
     public static void main(String[] args) {

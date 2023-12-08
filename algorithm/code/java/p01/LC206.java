@@ -1,4 +1,4 @@
-package algorithm.code.java;
+package algorithm.code.java.p01;
 
 public class LC206 {
     public static void main(String[] args) {

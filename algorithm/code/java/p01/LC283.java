@@ -1,6 +1,4 @@
-package algorithm.code.java;
-
-import java.util.Arrays;
+package algorithm.code.java.p01;
 
 public class LC283 {
     public static void main(String[] args) {

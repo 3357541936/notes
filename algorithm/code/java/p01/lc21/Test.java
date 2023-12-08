@@ -1,4 +1,4 @@
-package algorithm.code.java.lc21;
+package algorithm.code.java.p01.lc21;
 
 public class Test {
     public static void main(String[] args) {

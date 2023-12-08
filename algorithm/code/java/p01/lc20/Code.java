@@ -1,4 +1,4 @@
-package algorithm.code.java.lc20;
+package algorithm.code.java.p01.lc20;
 
 import java.util.HashMap;
 import java.util.Map;

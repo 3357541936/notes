@@ -1,6 +1,4 @@
-package algorithm.code.java.lc66;
-
-import java.util.Stack;
+package algorithm.code.java.p01.lc66;
 
 // LC 20: 加一
 public class Code {

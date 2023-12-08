@@ -1,6 +1,5 @@
-package algorithm.code.java;
+package algorithm.code.java.p01;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class LC88 {

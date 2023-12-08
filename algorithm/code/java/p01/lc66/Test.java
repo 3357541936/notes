@@ -1,4 +1,4 @@
-package algorithm.code.java.lc66;
+package algorithm.code.java.p01.lc66;
 
 import java.util.Arrays;
 
