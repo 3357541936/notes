@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function Fn() {
+        if (arguments.callee.caller === pattern.getInstance) {
+            this.prop = 100;
+            // ...
+        }
+    }
+
+    const pattern = (function () {
+        var instance = null;
+        return {
+            getInstance: function () {
+                if (!instance)
+                    instance = new Fn();
+                return instance;
+            }
+        }
+    }())
+
+    const x = pattern.getInstance();
+    console.log(x.prop); // 100
+
+    const fn = new Fn(); // 无法调用方法
+    console.log(fn.prop); // undefined
+
+
+</script>
+</body>
+</html>
